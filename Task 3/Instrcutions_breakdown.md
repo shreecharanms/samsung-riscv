@@ -1,14 +1,14 @@
-INSTRUCTION SETS
+# INSTRUCTION SETS
 
 ![image](https://github.com/user-attachments/assets/e6d8c66b-1e0c-4188-aecc-55b1d2d79b5f)
 
-1. **Instruction: auipc a0,0x1d**
+1. **Instruction: auipc a0,0x1d** < \br>
 
 ![image](https://github.com/user-attachments/assets/6d8175fa-888d-4f76-9f76-edff8ad4d71c)
 
 
 
-Instruction - _00000000000000011101|01010|0010111_
+Instruction - _00000000000000011101|01010|0010111_ < \br>
 Type - U
 Opcode - 0010111
 Immediate - 000000000000001110101010
