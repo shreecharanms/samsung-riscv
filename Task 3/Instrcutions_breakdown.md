@@ -92,7 +92,7 @@ funct7 - 0100000<br>
 Source Register(a5,a5) - 01110,01111<br>
 Destination Register(a4) - 01111<br>
 
-8. **Instruction : and a3,a2,a3
+8. **Instruction : and a3,a2,a3**
 
 ![image](https://github.com/user-attachments/assets/da566a57-4314-4621-ae59-1a5036de7e1c)
 
@@ -104,7 +104,7 @@ funct7 - 0000000<br>
 Source Register(a3,a2) - 01101,01100<br>
 Destination Register(a3) - 01101<br>
 
-9. **Instruction : lui a5, 0x2
+9. **Instruction : lui a5, 0x2**<br>
 
 ![image](https://github.com/user-attachments/assets/d27877f1-8bb4-4220-b401-ff91821c8d55)
 
@@ -115,7 +115,7 @@ Immediates - 00000010,0000000000<br>
 Opcode - 0110111<br>
 Destination Register(a5) - 01111<br>
 
-10. **Instruction : or a3,a5,a3
+10. **Instruction : or a3,a5,a3**<br>
 
 ![image](https://github.com/user-attachments/assets/12341b0c-c081-47af-af66-c3e77efae671)
 
@@ -126,5 +126,67 @@ funct3 - 110 <br>
 funct7 - 0000000<br>
 Source Register(a3,a5) - 01111,01101<br>
 Destination Register(a3) - 01111<br>
+
+11. **Instruction : sh a5, 16(a4)**<br>
+
+![image](https://github.com/user-attachments/assets/2067bc30-4d56-47b5-adb4-ef8e7f14a24a)
+
+Instruction - _0000000|01111|01110|001|10000|0100011_<br>
+Type - S<br>
+Opcode - 0110011<br>
+Immediates - 10000,0000000
+funct3 - 001 <br>
+Source Register(a5,a4) - 01111,01110<br>
+
+12. **Instruction : a3, 172(a4)
+
+![image](https://github.com/user-attachments/assets/258e4cbe-cd5a-4d48-a9ff-a406ed14fe2d)
+
+Instruction - _0000101|01101|01110|010|01100|0100011_<br>
+Type - S<br>
+Opcode - 0100011<br>
+Immediates - 01100,0000000
+funct3 - 001 <br>
+Source Register(a5,a4) - 01111,01110<br>
+
+13. Instruction - lhu a5, 16(a5)
+
+![image](https://github.com/user-attachments/assets/3c58a286-f0b2-49bc-9151-8d54e189f3e7)
+
+
+Instruction - _00000001000001111101011110000011_<br>
+Type - Load<br>
+Opcode - 0000011<br>
+Immediates - 000000010000<br>
+funct3 - 001 <br>
+Source Register(a5) - 01111<br>
+Destination Register(a5) - 01111<br>
+
+14. Instruction - andi a6,s1, -1025
+
+![image](https://github.com/user-attachments/assets/7176124e-8975-44d4-9138-1b922bc23857)
+
+
+Instruction - 101111111111|01001|111|10000|0010011<br>
+Type - I<br>
+Immediate - 101111111111<br>
+Opcode - 0010011<br>
+Destination Registe(s1) - 10000<br>
+Source Register(a6) - 01001<br>
+funct3 - 111 <br>
+
+15. Instruction -
+
+![image](https://github.com/user-attachments/assets/11e6a648-d79d-4657-a813-00c49b466c92)
+
+Instruction - _1111111|11111|01000|100|01101|0010011_<br>
+Type - Bitwise<br>
+Opcode - 0010011<br>
+funct3 - 100 <br>
+funct7 - 1111111<br>
+Source Register(a3) - 11111,01000<br>
+Destination Register(a3) - 01101<br>
+
+
 
 
