@@ -55,6 +55,30 @@ Immediates - 01111000,0000000000<br>
 Opcode - 1100111<br>
 Destination Register(a5) - 00001<br>
 
+5. **Instruction sd s1, 8(sp)**<br>
+   
+ ![image](https://github.com/user-attachments/assets/4d6e1291-1fe6-4cc8-84e0-e5f7ff9a20f3)
+
+
+Instruction - 00000000100|10001|00110|100|01000|0100011<br>
+Type - S<br>
+Immediate - 00000000100<br>
+Opcode - 0100011<br>
+Source Registers(s1,sp) - 10001,00110
+func3 - 100
+Destination Register(a5) - 00001<br>
+
+6. **Instrction : sub a2,a2,a0**
+
+![image](https://github.com/user-attachments/assets/84cdc49e-63ab-43d8-bdfc-48b472c85155)
+
+Instruction - _0100000|01010|01100|000|01100|0110011_<br>
+Type - R<br>
+Opcode - 0110011<br>
+funct3 - 000 <br>
+funct7 - 0100000<br>
+Source Register(a2,a2) - 01010,01100<br>
+Destination Register(a0) - 01100<br>
 
 
 
