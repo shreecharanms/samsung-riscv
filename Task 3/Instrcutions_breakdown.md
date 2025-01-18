@@ -80,5 +80,51 @@ funct7 - 0100000<br>
 Source Register(a2,a2) - 01010,01100<br>
 Destination Register(a0) - 01100<br>
 
+7. **Insreuction : subw a5,a5,a4**
+
+![image](https://github.com/user-attachments/assets/30678f55-6c2a-472d-97a4-accdba725d9b)
+
+Instruction - _0100000|01110|01111|000|01111|0111011_<br>
+Type - R<br>
+Opcode - 0111011<br>
+funct3 - 000 <br>
+funct7 - 0100000<br>
+Source Register(a5,a5) - 01110,01111<br>
+Destination Register(a4) - 01111<br>
+
+8. **Instruction : and a3,a2,a3
+
+![image](https://github.com/user-attachments/assets/da566a57-4314-4621-ae59-1a5036de7e1c)
+
+Instruction - _0000000|01101|01100|111|01101|0110011_<br>
+Type - R<br>
+Opcode - 0110011<br>
+funct3 - 000 <br>
+funct7 - 0000000<br>
+Source Register(a3,a2) - 01101,01100<br>
+Destination Register(a3) - 01101<br>
+
+9. **Instruction : lui a5, 0x2
+
+![image](https://github.com/user-attachments/assets/d27877f1-8bb4-4220-b401-ff91821c8d55)
+
+
+Instruction - 0|0000000000|0|00000010|01111|0110111<br>
+Type - I<br>
+Immediates - 00000010,0000000000<br>
+Opcode - 0110111<br>
+Destination Register(a5) - 01111<br>
+
+10. **Instruction : or a3,a5,a3
+
+![image](https://github.com/user-attachments/assets/12341b0c-c081-47af-af66-c3e77efae671)
+
+Instruction - _0000000|01111|01101|110|01111|0110011_<br>
+Type - R<br>
+Opcode - 0110011<br>
+funct3 - 110 <br>
+funct7 - 0000000<br>
+Source Register(a3,a5) - 01111,01101<br>
+Destination Register(a3) - 01111<br>
 
 
