@@ -1,6 +1,6 @@
 # SeismoGuard: Intelligent Earthquake Detection & Alert System
 
-3# Earthquake Detection System Using VSD Squadron Mini
+ Earthquake Detection System Using VSD Squadron Mini
 The VSD Squadron Mini is a compact and efficient microcontroller designed for real-time data acquisition and processing. It features multiple digital and analog I/O pins, making it ideal for sensor-based applications. With its low power consumption and fast response time, it is well-suited for embedded systems and IoT projects.
 
 ## Project Overview:
