@@ -2,7 +2,7 @@
 
 | Pin	  | Function	   | Component     |
 |-------|------------ |---------------|
-| D1	   | utoff LED	  |Indicator LED  |
+| D1	   | Shutoff LED	  |Indicator LED  |
 | D2	   | Ready LED	  |Indicator LED  |
 | D3	   | Buzzer	     |Alert System   |
 | D4	   | Relay Input |5V Relay (Bulb)| 
