@@ -8,13 +8,14 @@ This project implements an earthquake detection system using the D7S seismic sen
 
 ## Pin Configuration:
 
-Pin	Function	   Component <br>
-D1	Shutoff LED	 Indicator LED <br>
-D2	Ready LED	   Indicator LED<br>
-D3	Buzzer	     Alert System <br>
-D4	Relay Input	 5V Relay (Bulb) <br>
-A1	Sensor Data  D7S Sensor <br>
-A2	Sensor Data	 D7S Sensor <br>
+| Pin	  | Function	   | Component     |
+|-------|------------ |---------------|
+| D1	   | utoff LED	  |Indicator LED  |
+| D2	   | Ready LED	  |Indicator LED  |
+| D3	   | Buzzer	     |Alert System   |
+| D4	   | Relay Input |5V Relay (Bulb)| 
+| A1	   | Sensor Data |D7S Sensor     |
+| A2    | Sensor Data	|D7S Sensor     |
 
 ## Key Features:
 Real-time seismic detection using the high-precision D7S sensor.
@@ -23,3 +24,9 @@ Reliable relay control for automatic switching of external devices.
 Low power consumption for continuous operation in disaster-prone areas.
 
 This cost-effective and efficient system can be integrated into early warning systems, providing real-time alerts to enhance disaster preparedness and safety measures. 
+
+
+| First Header  | Second Header | Components   |
+| ------------- | ------------- | -------------|
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
