@@ -6,6 +6,20 @@ The VSD Squadron Mini is a compact and efficient microcontroller designed for re
 ## Project Overview:
 This project implements an earthquake detection system using the D7S seismic sensor, which detects ground motion and provides real-time seismic data. When an earthquake is detected, the system triggers a buzzer and a lightbulb for immediate alerting. A 5V relay is used to control the bulb operation. The VSD Squadron Mini reads analog signals from the D7S sensor and activates the necessary output indicators based on seismic intensity.
 
+##Components List
+
+| Component	Specification |  Purpose            |
+|------------------------ | ------------------- |
+| VSD Squadron Mini | for processing data |
+| D7S Seismic Sensor |	Detects earthquake vibrations |
+| Buzzer	Audible alert | for earthquake detection |
+| LEDs (2x) |	Status indicators (Ready & Shutoff) |
+| Lightbulb	| Visual alert |
+| 5V Relay Module |	Controls the lightbulb operation |
+| Resistors	| Current limiting for LEDs |
+| Wires & Connectors |	Circuit connections |
+| Power Supply (5V)	| Powers Source |
+
 ## Pin Configuration:
 
 | Pin	  | Function	   | Component     |
@@ -24,9 +38,3 @@ Reliable relay control for automatic switching of external devices.
 Low power consumption for continuous operation in disaster-prone areas.
 
 This cost-effective and efficient system can be integrated into early warning systems, providing real-time alerts to enhance disaster preparedness and safety measures. 
-
-
-| First Header  | Second Header | Components   |
-| ------------- | ------------- | -------------|
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
